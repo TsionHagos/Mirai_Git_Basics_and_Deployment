@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
-st.title("AI CHAT with Chat HISTORY")
+st.title("UPDATED TITLE - 2")
 @st.cache_resource
 def get_ai_client():
     return genai.Client(api_key = os.getenv("GEMINI_API_KEY"))
